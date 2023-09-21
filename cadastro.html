@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Título da Página</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="utils.js"></script>
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <img class="logo" src="Imagens Mockup/App/Logo empresa sem fundo.png">
+                <h1>Home Coffee Express </h1>
+        </div>
+        <div class="login">
+            <nav>
+                <p><a href="minha_conta.html"> Minha conta </a> </p>
+            </nav>
+        </div>
+    </header>
+
+    <div>
+            <nav class="submenu">
+                <ul>
+                    <li id="cardapio"> <a href="index.html"> Cardápio </a> </li>
+                    <li id="carrinho"><a href="carrinho.html"> Carrinho </a> </li>
+                    <li id="meus_pedidos"> <a href="meus_pedidos.html"> Meus pedidos </a> </li>
+                    <li id="favoritos"> <a href="favoritos.html"> Favoritos </a> </li>
+                </ul>
+            </nav>
+    </div>
+
+
+    <div class="editar_dados_info">
+        <h3>Cadastro</h3>
+
+        <div class="editar_linha_nome">
+            <p>Nome:</p>
+            <input type="text" placeholder="Digite:">
+        </div>
+
+        <div class="cadastro_sexo">
+            <p>Sexo:</p>
+            <select name="Sexo" >
+                <option>Masculino</option>
+                <option>Feminino</option>
+                <option>Outro</option>
+            </select>
+        </div>
+
+        <div class="cadastro_senha">
+            <p>Senha:</p>
+            <input type="text" placeholder="Digite:">
+        </div>
+
+        <div class="editar_linha_end_cima">
+            <p>Endereço:</p>
+            <input type="text" placeholder="Lograudouro">
+            <input type="text" placeholder="Bairro">
+        </div>
+
+        <div class="editar_linha_end_baixo">
+            <input class="editar_linha_end_baixo_cidade" type="text" placeholder="Cidade">
+            <input class="editar_linha_end_baixo_estado"type="text" placeholder="Estado">
+        </div>
+
+        <br>
+
+        <div class="cadastro_linha_data_nasc">
+            <p>Data de nascimento:</p>
+            <input type="date" placeholder="dd/mm/aa">
+            <p>Deseja receber promoções?</p>
+            <input type="checkbox">
+        </div>
+
+        <div class="editar_dados_button">
+            <button><a href="login.html">Cadastrar</a></button>
+        </div>
+
+
+    </div>
+
+    
+    
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Título da Página</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="utils.js"></script>
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <img class="logo" src="Imagens Mockup/App/Logo empresa sem fundo.png">
+                <h1>Home Coffee Express </h1>
+        </div>
+        <div class="login">
+            <nav>
+                <p><a href="minha_conta.html"> Minha conta </a> </p>
+            </nav>
+        </div>
+    </header>
+
+    <div>
+            <nav class="submenu">
+                <ul>
+                    <li id="cardapio"> <a href="index.html"> Cardápio </a> </li>
+                    <li id="carrinho"><a href="carrinho.html"style=" color: white;"> Carrinho </a> </li>
+                    <li id="meus_pedidos"> <a href="meus_pedidos.html"> Meus pedidos </a> </li>
+                    <li id="favoritos"> <a href="favoritos.html"> Favoritos </a> </li>
+                </ul>
+            </nav>
+    </div>
+
+    <br>
+
+    <div  class="meu_carrinho">
+        <h2>Meu carrinho</h2>
+
+        <br>
+
+        <ul>
+            <li class="lista_carrinho">
+                <div class="lista_carrinho_detalhes">
+                    <img class="imagem_item_individual" src="Imagens Mockup/Bebidas/cafe-expresso.jpg">
+                    <div class="descricoes_lista_carrinho">
+                        <p class="texto_item">Descrição produto</p>
+                        <button class="butao_item">+1</button>
+                        <button class="butao_item">-1</button>
+                        <p class="texto_item">Valor R$XX,XX</p>
+                    </div>
+                </div>
+            </li>
+            <br>
+            <br>
+
+            <div class="endereço_de_entrega">
+                <input type="text" placeholder="Endereço">
+                <input type="text" placeholder="Bairro">
+                <input type="text" placeholder="Cidade">
+                <p class="valor_entrega">Valor entrega: R$XX,XX</p>
+            </div>
+
+            <div class="incluir_cupom">
+                <input type="text" placeholder="Código do cupom">
+                <button>Aplicar</button>
+                <p>Valor Total: R$XX,XX</p>
+            </div>
+        </ul>
+    </div>
+
+    <div class="botoes_pedido">
+        <button>Cancelar Pedido</button>
+        <button>Programar Pedido</button>
+        <button>Recorrer Pedido</button>
+        <button>Finalizar Pedido</button>
+    </div>
+    
+</body>
+</html>

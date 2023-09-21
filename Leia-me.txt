@@ -1,0 +1,5 @@
+Mockup de média-alta fidelidade
+
+O mockup não contém nenhuma logíca, então somente os comandos de navegabilidade
+estão funcionais.
+
