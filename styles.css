@@ -111,6 +111,18 @@ nav p {
     
 }
 
+.carousel2 {
+    margin: 70px;
+    border: solid 1px #A67C58;
+    
+}
+
+.carousel3 {
+    margin: 70px;
+    border: solid 1px #A67C58;
+    
+}
+
 .carousel h2 {
     margin: 10px 0;
     text-align: center;
@@ -138,6 +150,59 @@ nav p {
     margin-right: 20px;
 }
 
+.carousel2 h2 {
+    margin: 10px 0;
+    text-align: center;
+    border: solid 1px black;
+    padding: 10px;
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-top: auto;
+    border-top: hidden;
+    background-color: #D9BBA0;
+    border-color: #A67C58;
+    color: #8C593B;
+}
+
+.carousel2 ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Adicionado para a transição suave */
+    position: relative; /* Adicionado para posicionamento dos itens */
+}
+
+.carousel2 ul li {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+.carousel3 h2 {
+    margin: 10px 0;
+    text-align: center;
+    border: solid 1px black;
+    padding: 10px;
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-top: auto;
+    border-top: hidden;
+    background-color: #D9BBA0;
+    border-color: #A67C58;
+    color: #8C593B;
+}
+
+.carousel3 ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Adicionado para a transição suave */
+    position: relative; /* Adicionado para posicionamento dos itens */
+}
+
+.carousel3 ul li {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
 
 
 
@@ -150,7 +215,7 @@ nav p {
 
 .item_carousel {
     display: inline-block;
-    margin-right: 10px; /* Espaço entre os itens */
+    margin-right: 20px; /* Espaço entre os itens */
 }
 
 .imagem_carousel{
@@ -202,6 +267,40 @@ nav ul li {
     color: #D9BBA0;
 }
 
+.carousel-prev2,
+.carousel-next2 {
+    padding: 5px 10px;
+    margin: 0 15px;
+    background-color: #D9BBA0;
+    border: none;
+    color: #8C593B;
+    border: solid 1px #A67C58;
+    cursor: pointer;
+}
+
+.carousel-prev2:hover,
+.carousel-next2:hover {
+    background-color: #8C593B;
+    color: #D9BBA0;
+}
+
+.carousel-prev3,
+.carousel-next3 {
+    padding: 5px 10px;
+    margin: 0 15px;
+    background-color: #D9BBA0;
+    border: none;
+    color: #8C593B;
+    border: solid 1px #A67C58;
+    cursor: pointer;
+}
+
+.carousel-prev3:hover,
+.carousel-next3:hover {
+    background-color: #8C593B;
+    color: #D9BBA0;
+}
+
 .carousel-container {
     overflow: hidden;
 }
@@ -220,6 +319,16 @@ nav ul li {
 }
 
 .carousel ul li {
+    margin: auto;
+    flex: 0 0 auto;
+}
+
+.carousel2 ul li {
+    margin: auto;
+    flex: 0 0 auto;
+}
+
+.carousel3 ul li {
     margin: auto;
     flex: 0 0 auto;
 }
