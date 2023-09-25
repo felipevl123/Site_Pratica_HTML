@@ -108,6 +108,7 @@ nav p {
 .carousel {
     margin: 70px;
     border: solid 1px #A67C58;
+    
 }
 
 .carousel h2 {
@@ -127,21 +128,29 @@ nav p {
 .carousel ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Adicionado para a transição suave */
+    position: relative; /* Adicionado para posicionamento dos itens */
 }
 
 .carousel ul li {
-    display
+    flex: 0 0 auto;
+    margin-right: 20px;
 }
+
+
+
+
 
 .imagem_item {
     width: 300px;
     height: 180px;
-    display: inline-block;
     border: solid 1px #A67C58;
 }
 
-.item_carousel{
+.item_carousel {
     display: inline-block;
+    margin-right: 10px; /* Espaço entre os itens */
 }
 
 .imagem_carousel{
@@ -151,13 +160,10 @@ nav p {
     text-align: center;
 }
 
-.legenda_imagem{
+.legenda_imagem {
     border: solid 1px #A67C58;
-    margin-right: 50px;
-    margin-left: 50px;
-    margin-top: auto;
+    margin-right: 20px; /* Espaço entre os itens */
     background-color: #D9BBA0;
-
 }
 
 
@@ -200,12 +206,21 @@ nav ul li {
     overflow: hidden;
 }
 
-.carousel-items {
 
-    transition: transform 0.3s ease;
+.carousel-items {
+    display: flex;
+    gap: 20px;
+
+    text-align: center;
+
+}
+
+.carousel-items a {
+    margin-left: 50px;
 }
 
 .carousel ul li {
+    margin: auto;
     flex: 0 0 auto;
 }
 
@@ -895,10 +910,10 @@ nav ul li {
 
 .cadastro_linha_data_nasc p{
     margin-left: auto;
-    margin-right: ;
+
 }
 
 .cadastro_linha_data_nasc input{
-    margin-left: ;
+
     margin-right: auto;
 }
